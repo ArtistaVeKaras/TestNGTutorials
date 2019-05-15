@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--suite name you can name whatever you like  -->
+<suite name ="TestNGTutorials Suite">
+<!-- you can also name anything you like in this section -->
+<test name ="Search for Customer and Search Product">
+
+  <classes>
+   <class name="com.automation.chapter3.DemoAnnotation">
+	<methods>
+     <include name= "searchCustomer"/>
+     <include name= "searchProduct"/>
+   </methods>
+  </class>
+ </classes>
+ </test> <!-- Configuration Annotation Test-->
+  </suite><!-- Test Annotation Suite -->
