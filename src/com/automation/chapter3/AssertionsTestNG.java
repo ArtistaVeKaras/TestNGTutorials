@@ -7,6 +7,7 @@ import org.testng.asserts.SoftAssert;
 public class AssertionsTestNG {
 	
 	//This is to prove my change will take affect in the github account
+	//Adding another comment here jsut for training with github
 	
 	SoftAssert softassert = new SoftAssert();
 	
